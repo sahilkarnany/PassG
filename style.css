@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    font-family: 'Space Grotesk';
+    color: aliceblue;
+    background-color: #05595B;
+}
+
+#head1 {
+    font-size: 17px;
+}
+
+#head2 {
+    font-family: 'Space Grotesk';
+    font-weight: 300;
+    font-size: 60px;
+}
+
+#head22 {
+    font-weight: 500;
+    color: #062C30;
+}
+
+#head3 {
+    font-family: 'Questrial';
+    margin-bottom: 50px;
+    margin-top: 75px;
+    font-size: 15px;
+}
+
+.genText {
+    background-color:#086163;
+    padding: 5px;
+    color: aliceblue;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+#div1 {
+  margin-top: 100px;
+}
+
+
+
+/* CSS */
+#genPass {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #062C30;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: aliceblue;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+#genPass:hover {
+  background-color: aliceblue;
+  color: #062C30;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+#genPass:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+#genPass:hover {
+  box-shadow: rgba(160, 184, 170, 0.2) 0 6px 12px;
+}
